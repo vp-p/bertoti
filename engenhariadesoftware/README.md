@@ -52,7 +52,7 @@ Exemplo: É comum utilizar bibliotecas prontas para acelerar o lançamento do pr
 Exemplo: Uma empresa de tecnologia pode escolher reduzir o consumo de energia de seus servidores limitando a quantidade de processamento disponível para cada requisição. Isso torna a infraestrutura mais sustentável e ecológica, mas pode impactar negativamente o desempenho do sistema, resultando em tempos de resposta mais longos para os usuários.
 # Atividade 4
 ## Diagrama UML
- ![alt text](image.png)
+![image](https://github.com/user-attachments/assets/820af67a-107b-4ab0-baf5-1ff40da17647)
 
 # Atividade 5
 
