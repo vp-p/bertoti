@@ -58,12 +58,15 @@ Exemplo: Uma empresa de tecnologia pode escolher reduzir o consumo de energia de
 
 https://github.com/vp-p/bertoti/tree/main/engenhariadesoftware/Aula/src
 
-![alt text](<Captura de tela 2025-02-24 192106.png>)
-![alt text](<Captura de tela 2025-02-24 192122.png>)
+![image](https://github.com/user-attachments/assets/90e0c854-9c45-49c0-88a0-a89f83d72fb4)
+![image](https://github.com/user-attachments/assets/09f29f1b-7b7c-4e54-90dc-7e5ee2f5af93)
+
 
 # Atividade 6
 https://github.com/vp-p/bertoti/tree/main/engenhariadesoftware/Aula/src
 
 Usando a linguagem de programação Java, foram criados dois testes: um para chechar se os produtos foram adicionados a lista do estoque corretamentes e outro para certificar que a busca pelo produto, feita a partir do nome, havia buscado o produto correto, checando seu código.
 
-![alt text](<Captura de tela 2025-02-23 120220.png>)
+![image](https://github.com/user-attachments/assets/6bc283d8-3dea-4344-a12b-18f4ab80e372)
+
+)
