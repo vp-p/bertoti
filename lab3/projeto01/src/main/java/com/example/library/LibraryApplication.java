@@ -23,10 +23,10 @@ public class LibraryApplication {
 @RestController
 @RequestMapping("/books")
 class RestApiDemoController {
-	private List<Book> Books = new ArrayList<>();
+	private List<Book> books = new ArrayList<>();
 
 	public RestApiDemoController() {
-		Books.addAll(List.of(
+		books.addAll(List.of(
 				new Book("A Náusea", 165),
 				new Book("Memórias Póstumas de Brascubas", 321),
 				new Book("O Estrangeiro", 98),
@@ -36,12 +36,12 @@ class RestApiDemoController {
 
 	@GetMapping
 	Iterable<Book> getBooks() {
-		return Books;
+		return books;
 	}
 
 	@GetMapping("/{id}")
 	Optional<Book> getBookById(@PathVariable String id) {
-		for (Book b: Books) {
+		for (Book b: books) {
 			if (b.getId().equals(id)) {
 				return Optional.of(b);
 			}
@@ -51,9 +51,9 @@ class RestApiDemoController {
 	}
 
 	@PostMapping
-	Book postBook(@RequestBody Book Book) {
-		Books.add(Book);
-		return Book;
+		Book postBook(@RequestBody Book book) {
+		books.add(book);
+		return book;
 	}
 
 	@PutMapping("/{id}")
@@ -61,10 +61,10 @@ class RestApiDemoController {
 									 @RequestBody Book Book) {
 		int BookIndex = -1;
 
-		for (Book c: Books) {
+		for (Book c: books) {
 			if (c.getId().equals(id)) {
-				BookIndex = Books.indexOf(c);
-				Books.set(BookIndex, Book);
+				BookIndex = books.indexOf(c);
+				books.set(BookIndex, Book);
 			}
 		}
 
@@ -75,7 +75,7 @@ class RestApiDemoController {
 
 	@DeleteMapping("/{id}")
 	void deleteBook(@PathVariable String id) {
-		Books.removeIf(c -> c.getId().equals(id));
+		books.removeIf(c -> c.getId().equals(id));
 	}
 }
 
@@ -83,7 +83,7 @@ class Book {
 	private final String id;
 	private String name;
 	private Integer pages;
-
+	
 	public Book(String id, String name, Integer pages) {
 		this.id = id;
 		this.name = name;
