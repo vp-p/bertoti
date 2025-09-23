@@ -1,0 +1,22 @@
+body {
+    padding: 20px;
+}
+
+header h1 {
+    color: #007bff;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+#book-list {
+    margin-top: 20px;
+}
+
+.form-group label {
+    font-weight: bold;
+}
+
+.w3-modal-content {
+    padding: 20px;
+    border-radius: 8px;
+}
