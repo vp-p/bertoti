@@ -37,8 +37,8 @@ Se uma nova dimensão for adicionada — por exemplo, o destino da saída do tex
              |               |             |
         UpperCase         LowerCase     CamelCase       ← 3 classes (formato)
             *                 *             *
-           / \               / \           / \
-  SalvaArquivo Imprime  SalvaArquivo Imprime  SalvaArquivo Imprime      ← 6 classes (formato + destino)
+           /  \              /  \         /  \
+  SalvaArquivo Imprime   [mesma coisa]  [mesma coisa]      ← 6 classes (formato + destino)
                                                          
 ```
 
