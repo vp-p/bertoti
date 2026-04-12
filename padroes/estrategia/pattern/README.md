@@ -1,4 +1,4 @@
-# Strategy Design Pattern
+# Padrão de projeto: Estratégia
 
 Padrão comportamental que define uma família de algoritmos, encapsula cada um deles em classes separadas e os torna intercambiáveis em tempo de execução.
 
