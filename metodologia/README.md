@@ -54,9 +54,13 @@ Aplicação desktop desenvolvida em Java que permite ao coordenador gerenciar se
 | Tecnologia | Classificação |
 |:-----------|:--------------|
 | Java | Faço com ajuda |
-| MySQL | Faço com ajuda |
+| MySQL | Faço com autonomia |
 | Git / GitHub | Faço com ajuda |
 | Jira | Faço com ajuda |
+
+**Minhas colaborações:**
+
+Atuei como Scrum Master e também contribuí diretamente com o desenvolvimento da aplicação. No lado técnico, implementei a tela de cadastro de semestres e a tela de cadastro de professores, corrigi o parâmetro incorreto na instanciação do objeto `Aula` (`disciplina.getId()`), e atualizei o modelo de relacionamento do banco de dados. Na gestão ágil, elaborei e mantive o Product Backlog, registrei as alterações de prioridade entre sprints e adicionei o burndown da Sprint 1 ao repositório.
 
 **Soft Skills desenvolvidas:**
 
@@ -94,10 +98,14 @@ Plataforma web de mapeamento de competências que funciona como um "LinkedIn int
 |:-----------|:--------------|
 | Java / Spring Boot | Faço com autonomia |
 | TypeScript / JavaScript | Faço com ajuda |
-| MySQL | Faço com ajuda |
+| MySQL | Faço com autonomia |
 | Docker | Faço com ajuda |
 | Tailwind CSS | Faço com ajuda |
 | Git / GitHub | Faço com autonomia |
+
+**Minhas colaborações:**
+
+Como Product Owner, fui responsável pela gestão completa do backlog: criei e mantive as histórias de usuário com critérios de aceitação, adicionei o dicionário do backlog, atualizei as prioridades a cada sprint e defini a estrutura de branches e padrões de commit do projeto. Também contribuí diretamente com o backend, implementando a entidade `Equipe` de ponta a ponta — desde o mapeamento das chaves estrangeiras com `Colaborador`, passando pela definição do `EquipeService`, criação de ViewModels e Controller, até a adição dos DTOs e a correção do mapeamento de coleções no relacionamento um-para-muitos. Além disso, elaborei o guia de instalação e inseri os modelos MER e DER à documentação do repositório.
 
 **Soft Skills desenvolvidas:**
 
@@ -138,9 +146,13 @@ Plataforma web para gerenciamento de manutenções de equipamentos, com cadastro
 |:-----------|:--------------|
 | Java / Spring Boot | Faço com autonomia |
 | TypeScript / Vue.js | Faço com ajuda |
-| Oracle Database | Faço com ajuda |
+| Oracle Database | Faço com autonomia |
 | Docker | Faço com ajuda |
 | Git / GitHub | Faço com autonomia |
+
+**Minhas colaborações:**
+
+Atuei como desenvolvedor backend e fui responsável pela implementação do padrão de projeto Observer para geração automática de manutenções recorrentes (task API-88). Criei a interface `MaintenanceObserver`, implementei o `MaintenancePublisher` — responsável por gerenciar e notificar os observers — e desenvolvi o `MaintenanceCreator`, que observa eventos de criação de manutenção e dispara a geração automática das ocorrências seguintes. Para evitar duplicatas, também escrevi a query que verifica se já existe uma manutenção cadastrada para o mesmo período antes de persistir uma nova entrada.
 
 **Soft Skills desenvolvidas:**
 
