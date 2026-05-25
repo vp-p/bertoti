@@ -15,6 +15,8 @@ Sou Vinicius P. de Pádua, estudante de Banco de Dados na Fatec São José dos C
 Principais tecnologias com as quais tenho trabalhado:
 
 [![Minhas Skills](https://skillicons.dev/icons?i=java,spring,mysql,docker,git,github)](https://skillicons.dev)
+&nbsp;
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/oracle/oracle-original.svg" alt="Oracle DB" width="45" height="45"/>
 
 ## Contatos
 
@@ -90,7 +92,7 @@ Plataforma web de mapeamento de competências que funciona como um "LinkedIn int
 
 | Tecnologia | Classificação |
 |:-----------|:--------------|
-| Java / Spring Boot | Faço com ajuda |
+| Java / Spring Boot | Faço com autonomia |
 | TypeScript / JavaScript | Faço com ajuda |
 | MySQL | Faço com ajuda |
 | Docker | Faço com ajuda |
@@ -134,7 +136,7 @@ Plataforma web para gerenciamento de manutenções de equipamentos, com cadastro
 
 | Tecnologia | Classificação |
 |:-----------|:--------------|
-| Java / Spring Boot | Faço com ajuda |
+| Java / Spring Boot | Faço com autonomia |
 | TypeScript / Vue.js | Faço com ajuda |
 | Oracle Database | Faço com ajuda |
 | Docker | Faço com ajuda |
