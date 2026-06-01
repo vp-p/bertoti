@@ -21,9 +21,7 @@ public class EstoqueController {
 
     public void aplicarDesconto() {
         if (estrategia == null) return;
-        // Aplica a estratégia sobre os produtos do model (referências compartilhadas)
         estrategia.aplicar(estoque.getProdutos());
-        // Notifica observers para que a view reflita os preços atualizados
         estoque.notificarObservadores();
     }
 }

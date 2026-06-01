@@ -1,5 +1,7 @@
 package view;
 
+import javax.swing.JComponent;
+
 public interface ComponenteView {
-    void renderizar();
+    JComponent getComponente();
 }
